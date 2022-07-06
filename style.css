@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin: 47px 0 0 42px;
+}
+
+.header-anchor{
+    margin-right: 36px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header-button{
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.section-right{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+}
+
+img{
+    width: 595.18px;
+    height: 500px;
+    left: 121px;
+    top: 246px;
+    margin: 177px 0 0 121px;
+}
+
+h1{
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+}
+
+h2{
+    width: 493px;
+    height: 99px;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin: 47px 0 55px 0;
+    font-weight: 400;
+    
+}
+
+.learn-more{
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+.learn-more:hover{
+    opacity: 0.8;
+}
+
+.learn-more:active{
+    opacity: 0.5;
+}
+
+.header-anchor:hover{
+    opacity: 0.8;
+}
+
+.header-anchor:active{
+    opacity: 0.5;
+}
+
+.header-button:hover{
+    opacity: 0.8;
+}
+
+.header-button:active{
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 915px){
+    
+    .header-button{
+        height: 31px;
+        width: 91px;
+        font-size: 12px;
+        line-height: 18px;
+        position: absolute;
+        top: 2%;
+        left: 70%;
+    }
+    
+    .main-content {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .section-left {
+        order: 2;
+        position: absolute;
+        top: 37%;
+        left: -20%;
+      }
+      
+      .section-right {
+        order: 1;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+      }
+    
+    .header-anchor{
+        display: none;
+    }
+
+    h1{
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        width: 278px;
+        height: 60px;
+    }
+
+    h2{
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        width: 304px;
+        height: 165px;
+    }
+
+    img{
+        width: 312px;
+        height: 288px;
+    }
+
+    .learn-more{
+        font-size: 18px;
+        line-height: 27px;
+        width: 120px;
+        height: 27px;
+        position: absolute;
+        top: 90%;
+        left: 30%;
+    }
+
+}
+
