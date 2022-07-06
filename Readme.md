@@ -12,4 +12,4 @@
   <p><b>HTML</b></p>
   <p><b>CSS</b></p>
   <br>
-  <img src="https://github.com/luanfreitas8779/Dev-Club/blob/master/Desafios/1-Challenge-CSS/assets/download.png?raw=true">
+  <img src="https://github.com/luanfreitas8779/1-Challenge-CSS/blob/master/assets/download.png?raw=true">
